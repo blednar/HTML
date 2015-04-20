@@ -1,0 +1,126 @@
+div {
+  font-family: 'Palatino Linotype';
+}
+
+#header {
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+
+#name {
+  float: center;
+  font-size: 42px;
+  color: #000000;
+  text-align: center;
+}
+
+ul {
+  position: relative;
+  font-size: 24px;
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+}
+
+li:hover {
+  color: grey;
+}
+
+<!--Table styles-->
+
+#grid {
+  margin: 20px;
+}
+
+table, td, a {
+  align: center;
+  border: 2px white solid;
+}
+
+td {
+  text-align: center;
+  font-size: 24px;
+}
+
+td:hover {
+  color:grey;
+  border-color:grey;
+}
+
+#topleft {
+  width: 150px;
+  height: 150px;
+}
+
+#middleleft {
+  width: 150px;
+  height: 150px;
+}
+
+#bottomleft {
+  width: 150px;
+  height: 150px;
+}
+
+#topmiddle {
+  width: 150px;
+  height: 150px;
+}
+
+#middlemiddle {
+  width: 150px;
+  height: 150px;
+}
+
+#middlemiddle:hover {
+  color: lime;
+  border-color: lime;
+}
+
+#bottommiddle {
+  width: 150px;
+  height: 150px;
+}
+
+#topright {
+  width: 150px;
+  height: 150px;
+}
+
+#middleright {
+  width: 150px;
+  height: 150px;
+}
+
+#bottomright {
+  width: 150px;
+  height: 150px;
+}
+
+<!--Share buttons-->
+
+#socialmedia {
+  position: bottom;
+}
+
+#share-buttons img {
+width: 10px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
